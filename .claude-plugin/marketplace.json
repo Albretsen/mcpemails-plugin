@@ -1,0 +1,17 @@
+{
+  "name": "mcpemails",
+  "owner": {
+    "name": "Albretsen AS",
+    "url": "https://mcpemails.com"
+  },
+  "metadata": {
+    "description": "The MCPEmails plugin for Claude: email triage, drafts, cleanup and follow-ups across every connected mailbox."
+  },
+  "plugins": [
+    {
+      "name": "mcpemails",
+      "source": "./",
+      "description": "Triage, draft, clean up and follow up on email from Claude across Gmail, Outlook, iCloud, Yahoo, Fastmail and any IMAP mailbox, through the MCPEmails connector."
+    }
+  ]
+}

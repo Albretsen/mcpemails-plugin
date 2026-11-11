@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcpemails": {
+      "type": "http",
+      "url": "https://mcpemails.com/api/mcp"
+    }
+  }
+}

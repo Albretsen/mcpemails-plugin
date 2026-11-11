@@ -1,0 +1,19 @@
+{
+  "name": "mcpemails",
+  "displayName": "MCPEmails",
+  "version": "1.0.0",
+  "description": "Triage, draft, clean up and follow up on email from Claude across Gmail, Outlook, iCloud, Yahoo, Fastmail and any IMAP mailbox, through the MCPEmails connector. Every send and delete waits for your confirmation.",
+  "author": {
+    "name": "Albretsen AS",
+    "url": "https://mcpemails.com"
+  },
+  "homepage": "https://mcpemails.com/docs/claude",
+  "repository": "https://github.com/Albretsen/mcpemails-plugin",
+  "license": "MIT",
+  "keywords": ["email", "inbox", "gmail", "outlook", "imap", "triage", "drafts", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://mcpemails.com/docs",
+  "supportUrl": "https://mcpemails.com/help",
+  "privacyPolicyUrl": "https://mcpemails.com/privacy",
+  "termsOfServiceUrl": "https://mcpemails.com/terms"
+}
