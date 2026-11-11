@@ -1,5 +1,5 @@
 {
-  "name": "mcpemails",
+  "name": "mcpemails-plugin",
   "displayName": "MCPEmails",
   "version": "1.0.0",
   "description": "Triage, draft, clean up and follow up on email from Claude across Gmail, Outlook, iCloud, Yahoo, Fastmail and any IMAP mailbox, through the MCPEmails connector. Every send and delete waits for your confirmation.",
