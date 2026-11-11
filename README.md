@@ -25,7 +25,7 @@ The plugin has no hooks, no scripts, no local executables and no build step. It 
 1. Install the plugin. From the Claude plugin directory: Customize, Plugins, search for MCPEmails. In Claude Code you can also install straight from this repository:
 
    ```
-   /plugin install mcpemails-plugin --marketplace Albretsen/mcpemails-plugin
+   /plugin install mcpemails-inbox --marketplace Albretsen/mcpemails-plugin
    ```
 
    In Cursor: Marketplace, MCPEmails. Then, in Claude, open its Connectors tab and connect MCPEmails; in Cursor, approve the `mcpemails` MCP server when prompted. A browser window opens for the OAuth sign-in to mcpemails.com.

@@ -1,5 +1,5 @@
 {
-  "name": "mcpemails-plugin",
+  "name": "mcpemails-inbox",
   "owner": {
     "name": "Albretsen AS",
     "url": "https://mcpemails.com"
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "mcpemails-plugin",
+      "name": "mcpemails-inbox",
       "source": "./",
       "description": "Triage, draft, clean up and follow up on email from Claude across Gmail, Outlook, iCloud, Yahoo, Fastmail and any IMAP mailbox, through the MCPEmails connector."
     }
