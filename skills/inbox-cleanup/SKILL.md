@@ -22,7 +22,7 @@ Goal: a smaller inbox with nothing lost. Plan by sender or filter, show counts a
 
 ## Rules
 
-- Never call `email_delete` in a cleanup unless the user explicitly asks to delete. Even then, default to Trash (recoverable) and never pass `permanent: true` unless the user says "permanently" and confirms the count.
+- Never call `email_delete` in a cleanup unless the user explicitly asks to delete. Even then, default to Trash (recoverable) and never set `permanent: true` unless the user says "permanently" and confirms the count.
 - Never run a sweep you have not counted and shown. `email_search_and_move` acts on everything the filter matches; a loose filter empties an inbox into a folder. Prefer `from:` and `before:` over `text:`.
 - Keep flagged and unread mail from people out of the plan unless the user includes it.
 - On Gmail a move adds the destination label and removes Inbox; other labels stay. On IMAP, a search covers the Inbox only unless `include_folders` names others.
